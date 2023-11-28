@@ -1,0 +1,7 @@
+button {
+    background-color: #E3B873;
+    border-radius: 2px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
