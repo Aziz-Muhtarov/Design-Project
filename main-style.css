@@ -11,7 +11,6 @@
 
 .header {
     background-color: #131313;
-    width: 100vw;
 }
 
 .nav-container {
@@ -59,11 +58,14 @@
 
 /* MAIN */
 
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
 
 .first-part__text-container {
     padding: 194px 0 0 134px;
-    width: 676.11px;
-    height: 305px;
 }
 
 .main__first-part {
@@ -135,3 +137,95 @@
     background-color: rgba(227, 184, 115, 0);
     color: #fff;
 }
+
+/* second-part */
+
+.main__second-part {
+    background-color: #131313;
+}
+
+.second-part__container {
+    padding: 107px 135px 90px 134px;
+}
+
+.second-part__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    gap: 60.5px;
+    padding-right: 56px;
+}
+
+.second-part__list li {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.second-part__list a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    font-family: "Yeseva One", sans-serif;
+}
+
+.second-part__list a:hover {
+    color: #E3B873;
+    transition: 1s;
+    border-bottom: 1px solid #E3B873;
+}
+
+.second-part__columns {
+    display: flex;
+    padding-top: 45px;
+}
+
+.second-part__title {
+    font-size: 27px;
+    font-family: "Yeseva One", sans-serif;
+    color: #E3B873;
+    text-transform: uppercase;
+}
+
+.second-part__text {
+    padding-top: 34px;
+    color: #fff;
+    font-size: 14px;
+    width: 442px;
+    line-height: 191%;
+}
+
+.second-part__first-column {
+    padding-right: 50px;
+}
+
+.second-part__add-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 34px;
+    padding-top: 41px;
+}
+
+.second-part__add-info__block {
+    width: 218px;
+    height: 55px;
+}
+
+.second-part__add-info__title {
+    font-size: 18px;
+    font-family: "Yeseva One", sans-serif;
+    color: #E3B873;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-bottom: 9px;
+}
+
+.second-part__add-info__text {
+    font-size: 13px;
+    color: #fff;
+    line-height: 163%;
+}
+
+.second-part__arrow-nav {
+    padding-top: 80px;
+}
+
